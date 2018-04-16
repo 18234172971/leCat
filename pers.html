@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>个人信息</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/mui.css"/>-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pers.css"/>
+	
+</head>
+<body>
+	<div id="header">
+		<div id="header-nav">
+			<span class="icon">
+				<a href="my-profile.html"><img src="img/left.png"/></a>
+			</span>
+			<h1>个人信息</h1>
+		</div>
+	</div>
+	<div id="content">
+		<form action="" class="register-form">
+			<div class="group">
+				<label for="niname">昵称：</label>
+				<input type="text" id="niname" required placeholder="请输入4-20个字符" />
+			</div>
+			<div class="group">
+				<label for="name">姓名：</label>
+				<input type="text" id="name" required placeholder="请输入4-20个字符" />
+			</div>
+			<div class="group">
+				<label for="name">性别：</label>
+				<select name="">
+					<option value="请选择">请选择</option>
+					<option value="男">男</option>
+					<option value="女">女</option>
+				</select>
+			</div>
+			<div class="group">
+				<label for="name">生日：</label>
+				<input placeholder="请选择" type="date" id="name" style="list-style: none" />
+			</div>
+			<div class="group">
+				<label for="name">婚姻状况：</label>
+				<select name="" style="list-style: none">
+					<option value="请选择">请选择</option>
+					<option value="未婚">未婚</option>
+					<option value="已婚">已婚</option>
+				</select>
+			</div>
+			<div class="group">
+				<label for="name">学历：</label>
+				<select name="">
+					<option value="请选择">请选择</option>
+					<option value="本科">本科</option>
+					<option value="大专">大专</option>
+					<option value="高中">高中</option>
+					<option value="初中">初中</option>
+				</select>
+			</div>
+			<div class="group">
+				<label for="name">收入水平：</label>
+				<select name="">
+					<option value="  请选择">  请选择</option>
+					<option value="6000以上">6000以上</option>
+					<option value="4000以上">4000以上</option>
+					<option value="3000以上">3000以上</option>
+					<option value="3000以下">3000以下</option>
+				</select>
+			</div>
+			<div class="group btn">
+				<input type="submit" value="保存" class="color-back"/>
+			</div>
+		</form>
+	</div>
+	<div id="footer-nav" >
+		<ul>
+			<li><a href="./bill.html"><img src="img/bill.png"/><span >账单</span></a></li>
+			<li><a href="./income.html"><img src="img/chart.png"/><span>图表</span></a></li>
+			<li><a href="./account.html"><img src="img/menu.png"/></a></li>
+			<li><a href="./money.html"><img src="img/money.png"/><span>理财</span></a></li>
+			<li><a href="./my-profile.html"><img src="img/mine.png"/><span>我</span></a></li>
+		</ul>
+	</div>
+</body>
+<script src="js/common.js"></script>
+</html>

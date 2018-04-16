@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>修改密码</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pwd.css"/>
+	
+</head>
+<body>
+	<div id="header">
+		<div id="header-nav">
+			<span class="icon">
+				<a href="my-profile.html"><img src="img/left.png"/></a>
+			</span>
+			<h1>修改密码</h1>
+		</div>
+	</div>
+	<div id="content">
+		<form action="" class="register-form">
+			
+			<div class="group">
+				<label for="password">原密码：</label>
+				<input style="border: 0" type="password" id="password" required placeholder="请输入原密码" />
+			</div>
+			<div class="group">
+				<label for="pwd">新密码：</label>
+				<input style="border: 0" type="password" id="pwd1" required placeholder="6-20位数字及字母" />
+			</div>
+			<div class="group">
+				<label for="pwd">确认新密码：</label>
+				<input style="border: 0" type="password" id="pwd" required placeholder="请再次输入新密码" />
+			</div>
+			
+			<div class="group btn">
+				<input type="submit" value="保存" class="color-back"/>				
+			</div>
+		</form>
+	</div>	
+	<div id="footer-nav" >
+		<ul>
+			<li><a href="./bill.html"><img src="img/bill.png"/><span >账单</span></a></li>
+			<li><a href="./income.html"><img src="img/chart.png"/><span>图表</span></a></li>
+			<li><a href="./account.html"><img src="img/menu.png"/></a></li>
+			<li><a href="./money.html"><img src="img/money.png"/><span>理财</span></a></li>
+			<li><a href="./my-profile.html"><img src="img/mine.png"/><span>我</span></a></li>
+		</ul>
+	</div>
+</body>
+<script src="js/common.js"></script>
+</html>

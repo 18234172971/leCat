@@ -1,0 +1,11 @@
+html,body{
+    width: 100px;
+    height:100px;
+    background: #DF1719;
+}
+.logo {
+    background: url("../img/cat.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}

@@ -1,0 +1,11 @@
+.btn>input{
+	display: block;
+	background-color:#e86364;
+	width:8rem;
+	height:1rem;
+	border:0;
+	color:#fff;
+	font-size:0.373333rem;
+	margin-left:1rem;
+	margin-top:.8rem;
+}

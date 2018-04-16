@@ -1,0 +1,34 @@
+
+#
+
+#content{
+	background-color: #fff;
+	font-size:0.533333rem;
+}
+#content #list{
+	margin-top: 0.266667rem;
+	margin-left:0.4rem;
+	font-size:0.533333rem;
+}
+#content #list>li{
+	padding:0.3rem 0;
+	border-bottom:1px solid #ccc;
+}
+#content .pic{
+	float: right;
+	display: block;
+	width:0.586667rem;
+	height:0.586667rem;
+}
+#content .btn{
+	position: fixed;
+	top:50%;
+	left:1rem;
+	background-color:#e86364;
+	border-radius: 3px;
+	height:1.12rem;
+	width:8rem;
+	color:#fff;
+	text-align: center;
+	line-height: 1.12rem;
+}

@@ -1,0 +1,35 @@
+#header span{
+    font-size:16px;
+    padding:0 .6rem;
+
+}
+#header span:hover{
+    color:#e86364;
+}
+.header-red{
+    color: #E86364;
+}
+.mf-one{
+    width: 100%;
+    background: #383D53;
+    padding: 20px 15px;
+    font-size: 14px;
+    color:#fff;
+    box-sizing: border-box;
+}
+.mf-two{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.mf-two>div>span{
+    position: relative;
+    top:-2px;
+}
+.mf-two a{
+    color:#333;
+}
+ .mon-line{
+    width: 100%;
+    height:12px;
+    background: #F2F2F2;
+}
