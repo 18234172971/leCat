@@ -1,5 +1,8 @@
 .register-form>.group{
-	margin-bottom:0.426667rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
 	
 }
 .register-form>.group>label{

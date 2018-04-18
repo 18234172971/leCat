@@ -26,9 +26,6 @@
     font-size: 14px;
     margin-top: 5px;
 }
-.acc-icon>li:nth-child(1)>p{
-    color: #E86364;
-}
 .acc-beizhu{
     padding: 0 25px;
     display: flex;
@@ -48,4 +45,9 @@ table,tr,td{
 .rowspan{
     background-color: rgba(56, 61, 83, 1);
     color:#fff;
+}
+.img-active{
+    background: #E86364;
+    padding: 6px;
+    border-radius: 50%;
 }

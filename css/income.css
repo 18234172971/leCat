@@ -45,22 +45,24 @@
     width: 33.33%;
     height: 33px;
 }
-.in-button>div:nth-child(2),.in-button>div:nth-child(3){
+.in-button>div{
     border: 1px solid  rgba(121, 121, 121, 1);
 
 }
 .in-button>div:nth-child(3){
     border-radius:0 5px 5px 0;
 }
-
 .in-button>div:nth-child(1){
+    border-radius: 5px 0 0 5px;
+}
+.in-button .divs-active{
     color: #fff;
-    background: url("../img/in-button.png");
-    background-size: 100%;
-    height: 34px;
+    background: #E86364;
+    height: 33px;
     position: relative;
     right: -2px;
-    border-radius: 5px 0 0 5px;
+    border: 1px solid  #E86364;
+
 }
 .in-word{
     font-size: 14px;

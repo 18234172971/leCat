@@ -1,5 +1,5 @@
 
-#
+
 
 #content{
 	background-color: #fff;
@@ -25,10 +25,10 @@
 	top:50%;
 	left:1rem;
 	background-color:#e86364;
-	border-radius: 3px;
 	height:1.12rem;
 	width:8rem;
 	color:#fff;
 	text-align: center;
 	line-height: 1.12rem;
+	border-radius: 8px;
 }

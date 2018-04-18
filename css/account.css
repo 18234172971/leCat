@@ -14,11 +14,21 @@
     margin: 0 auto;
     text-align: center;
 }
+.img-active{
+    background: #E86364;
+    padding: 6px;
+    border-radius: 50%;
+
+}
+
 .acc-icon>li>img{
     display: block;
     width: 32px;
     height:32px;
     margin: 0 auto;
+
+
+
 }
 .acc-icon>li>p{
 
@@ -27,7 +37,7 @@
     margin-top: 5px;
 }
 .acc-icon>li:nth-child(1)>p{
-    color: #E86364;
+    /*color: #E86364;*/
 }
 .acc-beizhu{
     padding: 0 25px;
