@@ -31,7 +31,7 @@
         </div>
     </div>
     <!--主题内容-->
-    <div class="background">
+    <div class="background" style="position: fixed;z-index: 9999">
             <a href="./income.html" style="color:#fff">
                 <h6>收入</h6>
                 <div style="font-size: 16px">30000.000</div>
@@ -41,7 +41,7 @@
                 <div style="font-size: 16px">30000.000</div>
             </a>
     </div>
-    <div class="detail">
+    <div class="detail" style="margin-bottom: 1.84rem">
         <div class="date"><span>02月02日  星期五</span><span>收入:100元&nbsp;&nbsp;&nbsp;&nbsp;支出:130</span></div>
         <ul>
             <li>兼职 <span>100.00</span><p>15::30:33</p></li>
@@ -52,30 +52,43 @@
         <ul>
             <li>兼职 <span>100.00</span><p>15::30:33</p></li>
             <li>早餐<span>-60:00</span><p>15::30:33</p></li>
+            <li>兼职 <span>100.00</span><p>15::30:33</p></li>
+            <li>早餐 <span>-60:00</span><p>15::30:33</p></li>
+            <li>早餐 <span>-70:00</span><p>15::30:33</p></li>
         </ul>
     </div>
     <!--底部-->
+
     <div id="footer-nav">
-        <ul>
-            <li><a style="color: #E86364;" href="./bill.html"><img src="img/bill.png"/><span >账单</span></a></li>
-            <li><a href="./income.html"><img src="img/chart.png"/><span>图表</span></a></li>
-            <li><a href="./account.html"><img src="img/menu.png"/></a></li>
-            <li><a href="./money.html"><img src="img/money.png"/><span>理财</span></a></li>
-            <li><a href="./my-profile.html"><img src="img/mine.png"/><span>我</span></a></li>
-        </ul>
+            <ul>
+                <li><a style="color: #E86364;" href="./bill.html"><img src="img/bill.png"/><span >账单</span></a></li>
+                <li><a href="./income.html"><img src="img/chart.png"/><span>图表</span></a></li>
+                <li><a href="./account.html"><img src="img/menu.png"/></a></li>
+                <li><a href="./money.html"><img src="img/money.png"/><span>理财</span></a></li>
+                <li><a href="./my-profile.html"><img src="img/mine.png"/><span>我</span></a></li>
+            </ul>
     </div>
+
+
 </body>
 <script src="js/common.js"></script>
 <script>
-    let date=document.querySelectorAll(".M-date")[0];
-    console.log(date);
-    date.onclick=function () {
-        let inputDate=  document.createElement("input");
-        inputDate.setAttribute("type","date");//
-        inputDate.style.cssText="width:100%;height:1.84rem;position:absolute;bottom:0;z-index:9";
-        var detail = document.querySelectorAll(".detail")[0];//通过id号获取frameDiv 的父类（也就是上一级的节点）
-        console.log(detail);
-        detail .appendChild(inputDate);
-    }
+    // let date=document.querySelectorAll(".M-date")[0];
+    // console.log(date);
+    // date.onclick=function () {
+    //     let inputDate=  document.createElement("input");
+    //     inputDate.setAttribute("type","date");//
+    //     inputDate.setAttribute("class","Qdate");
+    //     inputDate.style.cssText="width:100%;height:1.84rem;position:absolute;bottom:0;z-index:9";
+    //     var detail = document.querySelectorAll(".detail")[0];//通过id号获取frameDiv 的父类（也就是上一级的节点）
+    //     detail .appendChild(inputDate);
+    //
+    //
+    // }
+    // var dates=document.querySelectorAll(".Qdate");
+    // console.log(dates);
+    // if(dates){
+    //     console.log(dates.value);
+    // }
 </script>
 </html>

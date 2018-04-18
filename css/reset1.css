@@ -99,6 +99,7 @@ table {
 	left:30px;
 	top:20px;
 	font-size: 14px;
+	z-index: 99;
 }
 .bill-fangdajing{
 	width: 20px;

@@ -79,6 +79,7 @@ a{
 	text-align:center;
 	line-height: 1.6rem;
 	font-size: 18px;
+	z-index: 999;
 }
 #content{
 	width:100%;
@@ -96,6 +97,7 @@ a{
 	height:1.84rem;
 	background-color:#f7f7f7;
 	margin-top: 1.84rem;
+	z-index: 999;
 }
 #footer-nav ul{
 	width:100%;

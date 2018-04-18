@@ -40,13 +40,15 @@
 }
 .in-button>div{
     display: block;
-    box-sizing: border-box;
+    box-sizing: content-box;
     text-align: center;
-    width: 33.33%;
+    width: 33.4%;
     height: 33px;
+    margin: 0;
 }
 .in-button>div{
     border: 1px solid  rgba(121, 121, 121, 1);
+    float: left;
 
 }
 .in-button>div:nth-child(3){
@@ -59,8 +61,6 @@
     color: #fff;
     background: #E86364;
     height: 33px;
-    position: relative;
-    right: -2px;
     border: 1px solid  #E86364;
 
 }
