@@ -6,29 +6,30 @@
 	font-size:0.533333rem;
 }
 #content #list{
-	margin-top: 0.266667rem;
-	margin-left:0.4rem;
 	font-size:0.533333rem;
 }
 #content #list>li{
-	padding:0.3rem 0;
+	padding:10px 0;
 	border-bottom:1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 #list>li>a{
 	display: block;
-	width: 88px;
-	height: 88px;
+	width: 33px;
+	height: 33px;
+	position: relative;
 }
 #content .pic{
-	float: right;
-	display: block;
+	position: absolute;
+	top:6px;
+	right:0;
 	width:0.586667rem;
 	height:0.586667rem;
 }
 #content .btn{
-	position: fixed;
-	top:50%;
-	left:1rem;
+	margin:30px 25px;
 	background-color:#e86364;
 	height:1.12rem;
 	width:8rem;
