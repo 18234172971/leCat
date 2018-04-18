@@ -75,10 +75,8 @@
 <script src="js/common.js"></script>
 <script>
     var divs=document.querySelectorAll(".in-button>div");
-    console.log(divs);
     for(var i=0;i<divs.length;i++){
             divs[i].onclick=function (ev) {
-                console.log(ev.path[0].classList.contains('divs-active'));
                 if(!ev.path[0].classList.contains('divs-active'))
                 {
                     var active=document.querySelectorAll(".in-button");

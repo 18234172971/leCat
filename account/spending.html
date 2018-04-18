@@ -89,7 +89,6 @@
             if(!ev.path[0].classList.contains('img-active'))
             {
                 var active=document.querySelectorAll(".acc-icon>li>img");
-                console.log(active);
                 for(var j=0;j<active.length;j++){
                     active[j].classList.remove('img-active');
                 }
@@ -107,7 +106,6 @@
         var target = e.target;
         if(target.nodeName.toLowerCase() === 'td'){
             var btnType = target.innerText;
-            console.log(btnType);
             if((content.innerText == 'Math Error') && (btnType != 'C')){
                 return;
             }
