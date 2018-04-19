@@ -16,19 +16,18 @@
 }
 .img-active{
     background: #E86364;
-    padding: 6px;
+    width: 30px;
+    height:30px;
+    padding: 5px;
     border-radius: 50%;
-
+    margin: 0 auto;
 }
 
-.acc-icon>li>img{
+.acc-icon>li>div>img{
     display: block;
-    width: 32px;
-    height:32px;
+    width: 30px;
+    height:30px;
     margin: 0 auto;
-
-
-
 }
 .acc-icon>li>p{
 

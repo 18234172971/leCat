@@ -91,15 +91,15 @@ table {
 	font-size: 14px;
 }
 .bill-word>span>i{
-	width: 20px;
-	height: 20px;
-	background: url("../img/sanjiaoxing.png");
-	background-size: contain;
-	position: absolute;
-	left:30px;
-	top:20px;
-	font-size: 14px;
-	z-index: 99;
+	/*width: 20px;*/
+	/*height: 20px;*/
+	/*background: url("../img/sanjiaoxing.png");*/
+	/*background-size: contain;*/
+	/*position: absolute;*/
+	/*left:30px;*/
+	/*top:20px;*/
+	/*font-size: 14px;*/
+	/*z-index: 99;*/
 }
 .bill-fangdajing{
 	width: 20px;
@@ -152,3 +152,4 @@ table {
 #footer-nav li:hover {
 	color:#e86364
 }
+

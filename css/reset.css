@@ -142,3 +142,19 @@ a{
 }
 body>div:nth-last-child(3){
 }
+.texiao{
+	border-radius:50%;
+	display: block;
+	width:15px;
+	height:15px;
+	border: 1px solid #999;
+}
+.word>div{
+	display: flex;justify-content: space-between;align-items: center
+}
+.word>div>span{
+	display: block;
+}
+.texiaos{
+	background: radial-gradient(#52A9F8,#fff);
+}
