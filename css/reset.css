@@ -148,6 +148,7 @@ body>div:nth-last-child(3){
 	width:15px;
 	height:15px;
 	border: 1px solid #999;
+	cursor: pointer;
 }
 .word>div{
 	display: flex;justify-content: space-between;align-items: center
