@@ -53,6 +53,7 @@ table,tr,td{
     padding: 5px;
     border-radius: 50%;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .acc-icon>li>div>img{

@@ -45,6 +45,7 @@
     width: 33.4%;
     height: 33px;
     margin: 0;
+    cursor: pointer;
 }
 .in-button>div{
     border: 1px solid  rgba(121, 121, 121, 1);
