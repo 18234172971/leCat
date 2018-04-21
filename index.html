@@ -1,29 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>登录页</title>
-    <link rel="stylesheet" href="css/reset1.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+            float: left;
+            margin:20px;
+        }
+        input {
+            width: 100px;height: 40px;
+        }
+        input.on {
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-<!--主题内容-->
-<form style="padding: 75px 50px 10px">
-    <div style="border-bottom:1px  solid #161616;padding-bottom: 9px;margin-top: 15px"><label for=""
-                                                                                              style="margin-right: 10px;color:#333;font-size: 16px">账号</label><input
-            autofocus placeholder="请输入账号" style="border: 0;outline: none;color: rgb(153, 153, 153);font-size: 13px"
-            type="text"></div>
-    <div style="border-bottom:1px  solid #161616;padding-bottom: 9px;margin-top: 15px"><label for=""
-                                                                                              style="margin-right: 10px;color:#333;font-size: 16px">账号</label><input
-            autofocus placeholder="请输入账号" style="border: 0;outline: none;color: rgb(153, 153, 153);font-size: 13px"
-            type="text"></div>
-    <a href="./register.html" style="display: block; font-size: 16px;color: #E86364;margin-top: 12px;text-align: right">注册</a>
-    <a href="./bill.html" style="display:block;width:100%;height:37px;margin-top: 20px;background: #383D53;border-radius: 8px;color:#fff;font-size: 18px;line-height: 37px;text-align: center">登&nbsp;&nbsp;录</a>
-</form>
+<div>
+    <ul>
+        <li><input type="button" class="on"></li>
+        <li><input type="button"></li>
+        <li><input type="button"></li>
+        <li><input type="button"></li>
+        <li><input type="button"></li>
+        <li><input type="button"></li>
+    </ul>
+</div>
 
+<script>
+    var list = document.getElementsByTagName('input');
+    for(let i = 0;i<list.length;i++) {
+        list[i].addEventListener('click',function() {
+            for(let i=0;i<list.length;i++) {
+                list[i].removeAttribute('class');
+            }
+            this.setAttribute('class','on')
+        })
+    }
+</script>
 </body>
-<script src="js/common.js"></script>
 </html>
