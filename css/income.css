@@ -38,7 +38,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.in-button>button{
+.in-button>input{
     display: block;
     box-sizing: content-box;
     text-align: center;
@@ -47,15 +47,15 @@
     margin: 0;
     cursor: pointer;
 }
-.in-button>button{
+.in-button>input{
     border: 1px solid  rgba(121, 121, 121, 1);
     float: left;
     background: #fff;
 }
-.in-button>button:nth-child(3){
+.in-button>input:nth-child(3){
     border-radius:0 5px 5px 0;
 }
-.in-button>button:nth-child(1){
+.in-button>input:nth-child(1){
     border-radius: 5px 0 0 5px;
 }
 .in-button .divs-active{

@@ -31,9 +31,9 @@
 <div class="in-main" style="margin-bottom: 1.84rem">
     <div class="in-chart">
         <div class="in-button">
-            <div class="divs-active">周</div>
-            <div>月</div>
-            <div>年</div>
+            <input class="divs-active" value="周" type="button">
+            <input type="button" value="月">
+            <input type="button" value="年">
         </div>
         <p class="in-word">总支出：500.00</p>
         <p class="in-word">平均支出：500.00</p>
@@ -75,20 +75,5 @@
 </div>
 </body>
 <script src="../js/common.js"></script>
-<script>
-    var divs=document.querySelectorAll(".in-button>div");
-    for(var i=0;i<divs.length;i++){
-        divs[i].onclick=function (ev) {
-            if(!ev.path[0].classList.contains('divs-active'))
-            {
-                var active=document.querySelectorAll(".in-button");
-                for(var j=0;j<active[0].children.length;j++){
-                    active[0].children[j].classList.remove('divs-active');
-                }
-                ev.path[0].classList.add('divs-active');
-            }
-        }
-    }
-
-</script>
+<script src="../js/cycle.js"></script>
 </html>

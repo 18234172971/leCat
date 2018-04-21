@@ -143,17 +143,21 @@ a{
 body>div:nth-last-child(3){
 }
 .texiao{
+	list-style: none;
 	border-radius:50%;
 	display: block;
 	width:15px;
 	height:15px;
 	border: 1px solid #999;
 	cursor: pointer;
+	background: #fff;
+	outline: none;
+
 }
 .word>div{
 	display: flex;justify-content: space-between;align-items: center
 }
-.word>div>span{
+.word>div>input{
 	display: block;
 }
 .texiaos{
