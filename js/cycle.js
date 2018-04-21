@@ -3,6 +3,8 @@ var button=document.querySelectorAll('.in-button')[0];
 console.log(button);
 for(var i=0;i<divs.length;i++){
     button.onclick=function (ev) {
+        alert(1);
+        console.log(ev);
         if(!ev.path[0].classList.contains('divs-active'))
         {
             var active=document.querySelectorAll(".in-button");
