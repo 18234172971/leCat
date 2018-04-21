@@ -1,6 +1,6 @@
 var divs=document.querySelectorAll(".in-button>input");
 for(var i=0;i<divs.length;i++){
-    divs[i].onclick=function (ev) {
+    divs[i].touchend=function (ev) {
         console.log(ev.path[0].classList.contains('divs-active'));
         if(!ev.path[0].classList.contains('divs-active'))
         {
