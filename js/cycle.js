@@ -1,6 +1,8 @@
 var divs=document.querySelectorAll(".in-button>button");
+var button=document.querySelectorAll('.in-button')[0];
+console.log(button);
 for(var i=0;i<divs.length;i++){
-    divs[i].onclick=function (ev) {
+    button.onclick=function (ev) {
         if(!ev.path[0].classList.contains('divs-active'))
         {
             var active=document.querySelectorAll(".in-button");
