@@ -164,3 +164,4 @@ body>div:nth-last-child(3){
 	background: radial-gradient(#52A9F8,#fff);
 }
 input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
+css：-webkit-tap-highlight-color:transparent;
