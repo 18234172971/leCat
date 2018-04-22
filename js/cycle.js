@@ -14,5 +14,7 @@
 //     }
 // }
 
-$('body').on('click', '.divs-active', function (e) {
-        alert('click');});
+$('.in-button>input').click(function () {
+   $(this).siblings('.in-button>input').removeClass('divs-active');  // 删除其他兄弟元素的样式
+    $(this).addClass('divs-active');
+ });
