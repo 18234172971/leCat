@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/income.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
 </head>
 <body>
 <div id="header">
@@ -27,7 +28,7 @@
 <!--主体-->
 <div class="in-main" style="margin-bottom: 241.6px">
     <ul class="acc-icon">
-        <li ><div  class="img-active" ><img src="img/u199.png" alt=""></div><p>餐饮</p></li>
+        <li  class="img-active"><div  ><img src="img/u199.png" alt=""></div><p>餐饮</p></li>
         <li><div><img src="img/u481.png" alt=""></div><p>零食</p></li>
         <li><div><img src="img/u485.png" alt=""></div><p>食物</p></li>
         <li><div><img src="img/u489.png" alt=""></div><p>水果</p></li>
@@ -107,23 +108,7 @@
 </div>
 </body>
 <script src="js/common.js"></script>
-<script>
-    var imgs=document.querySelectorAll(".acc-icon>li>div");
-    for(var i=0;i<imgs.length;i++){
-        imgs[i].onclick=function (ev) {
-            console.log(ev.path);
-            if(!ev.path[1].classList.contains('img-active')){
-                var active=document.querySelectorAll(".acc-icon>li>div");
-                for(var j=0;j<active.length;j++){
-                    console.log(active[j]);
-                    active[j].classList.remove('img-active');
-                }
-                console.log(ev.path);
-                ev.path[1].classList.add('img-active');
-            }
-        }
-    }
-</script>
+<script src="js/background.js"></script>
 <script>
     var btn_wrap = document.getElementsByTagName("table")[0];
     var content = document.getElementsByClassName('p')[0];// 显示器内容

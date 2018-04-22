@@ -155,7 +155,7 @@ body>div:nth-last-child(3){
 
 }
 .word>div{
-	display: flex;justify-content: space-between;align-items: center
+	display: flex;justify-content: space-between;align-items:left;
 }
 .word>div>input{
 	display: block;
@@ -164,4 +164,4 @@ body>div:nth-last-child(3){
 	background: radial-gradient(#52A9F8,#fff);
 }
 input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
-css：-webkit-tap-highlight-color:transparent;
+/*!**!css：-webkit-tap-highlight-color:transparent;*/

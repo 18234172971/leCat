@@ -108,11 +108,27 @@
     color: #383D53;
     border-bottom: 1px solid #666;
     padding:25px;
-    padding-bottom: 0;
     border-top: 1px solid #666;
+    position: relative;
+    display: flex;
 }
 .word>div{
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
+}
+.word>div:nth-last-child(1){
+    position: absolute;
+    right: 20px;
+    display: flex;
+    flex-direction: column
+}
+.word>div:nth-last-child(2){
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.word>div:nth-last-child(1)>span{
+    display: block;
+    margin:10px 0 11px;
 }
 .tiaozhuan{
     display: flex;
@@ -124,4 +140,7 @@
 .tiaozhuan a{
     font-size: 16px;
     color: #4AA5F8;
+}
+.word>div>span{
+    line-height: 38px;
 }
