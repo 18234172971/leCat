@@ -73,18 +73,16 @@
 </body>
 <script src="js/common.js"></script>
 <script>
-    // let date=document.querySelectorAll(".M-date")[0];
-    // console.log(date);
-    // date.onclick=function () {
-    //     let inputDate=  document.createElement("input");
-    //     inputDate.setAttribute("type","date");//
-    //     inputDate.setAttribute("class","Qdate");
-    //     inputDate.style.cssText="width:100%;height:1.84rem;position:absolute;bottom:0;z-index:9";
-    //     var detail = document.querySelectorAll(".detail")[0];//通过id号获取frameDiv 的父类（也就是上一级的节点）
-    //     detail .appendChild(inputDate);
-    //
-    //
-    // }
+    let date=document.querySelectorAll(".M-date")[0];
+    console.log(date);
+    date.onclick=function () {
+        let inputDate=  document.createElement("input");
+        inputDate.setAttribute("type","month");//
+        inputDate.setAttribute("class","Qdate");
+        inputDate.style.cssText="width:100%;height:100px;background:#fff;position:absolute;bottom:0;z-index:9";
+        var detail = document.querySelectorAll(".detail")[0];//通过id号获取frameDiv 的父类（也就是上一级的节点）
+        detail .appendChild(inputDate);
+    }
     // var dates=document.querySelectorAll(".Qdate");
     // console.log(dates);
     // if(dates){
