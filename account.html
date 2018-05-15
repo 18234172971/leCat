@@ -13,6 +13,13 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
 </head>
 <body>
+<style>
+    #myDate{
+        outline: 0;
+        border: 0;
+        text-align: center;
+    }
+</style>
 <div id="header">
     <div id="header-nav" class="header">
         <h1>
@@ -72,7 +79,7 @@
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
-                <td class="c_func_btn"><input type="date"></td>
+                <td class="c_func_btn"><input TYPE="text" id="myDate"></td>
             </tr>
             <tr>
                 <td>4</td>
@@ -176,5 +183,9 @@
             }
         }
     }
+
+//    日期
+    var now = new Date();
+    myDate.value=new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
 </script>
 </html>

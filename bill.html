@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bill.css">
     <link rel="stylesheet" href="css/reset1.css">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
 </head>
 <body>
     <div id="header">
@@ -75,6 +76,8 @@
 <script>
     let date=document.querySelectorAll(".M-date")[0];
     console.log(date);
+    var flag=1;
+    console.log(flag);
     date.onclick=function () {
         let inputDate=  document.createElement("input");
         inputDate.setAttribute("type","month");//
@@ -82,11 +85,19 @@
         inputDate.style.cssText="width:100%;height:100px;background:#fff;position:absolute;bottom:0;z-index:9";
         var detail = document.querySelectorAll(".detail")[0];//通过id号获取frameDiv 的父类（也就是上一级的节点）
         detail .appendChild(inputDate);
+        flag=0;
+        console.log(flag);
     }
-    // var dates=document.querySelectorAll(".Qdate");
-    // console.log(dates);
-    // if(dates){
-    //     console.log(dates.value);
-    // }
+    console.log(flag);
+    if(flag===0){
+        console.log(flag);
+        var dates=document.querySelectorAll("Qdate")[0];
+        console.log(dates);
+        if(dates){
+            console.log(dates.value);
+        }
+    }
+
 </script>
+<script src="./js/time.js"></script>
 </html>
