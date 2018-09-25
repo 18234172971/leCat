@@ -121,7 +121,7 @@
     var content = document.getElementsByClassName('p')[0];// 显示器内容
     count = 0; //记录显示屏上字符及数字个数
     bOneDec = false; //表示显示屏一个数字中是否已经有一个小数点的状态
-    btn_wrap.onclick = function(e){
+    btn_wrap.touchstart = function(e){
         var target = e.target;
         if(target.nodeName.toLowerCase() === 'td'){
             var btnType = target.innerText;

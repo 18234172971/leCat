@@ -13,7 +13,7 @@
 //     }
 //
 // }
-$('.texiao').click(function () {
+$('.texiao').touchstart(function () {
     $(this).siblings('.texiao').removeClass('texiaos');  // 删除其他兄弟元素的样式
     $(this).addClass('texiaos');
 });
